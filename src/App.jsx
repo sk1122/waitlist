@@ -8,7 +8,10 @@ const App = () => {
           <div className=" text-white font-bold text-2xl lg:text-xl font-inter">
             WagPay
           </div>
-          <button className="bg-[#3C43EE] py-3 px-6 font-semibold text-white hidden lg:flex space-y-1 items-center ">
+          <a
+            className="bg-[#3C43EE] py-3 px-6 font-semibold text-white hidden lg:flex space-y-1 items-center"
+            href="https://0yesqjuxu6v.typeform.com/to/RmcU7twB"
+          >
             <span>Join waitlist</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +29,7 @@ const App = () => {
                 d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z"
               ></path>
             </svg>
-          </button>
+          </a>
         </div>
       </nav>
       <div className="flex flex-col items-center justify-center h-screen lg:-mt-32">
@@ -37,7 +40,10 @@ const App = () => {
           Making cross chain seamless
           <br /> and taking over the world
         </h1>
-        <button className="bg-[#3C43EE] py-3 px-6 font-medium text-white flex items-center justify-center">
+        <a
+          className="bg-[#3C43EE] py-3 px-6 font-medium text-white flex items-center justify-center"
+          href="https://0yesqjuxu6v.typeform.com/to/RmcU7twB"
+        >
           Join waitlist
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +61,7 @@ const App = () => {
               d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z"
             ></path>
           </svg>
-        </button>
+        </a>
       </div>
     </>
   );
